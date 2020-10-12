@@ -1,0 +1,42 @@
+<!Doctype html> 
+<html> 
+<head> 
+<meta charset = "utf-8"> 
+<title> Formulario de Registro JAC </title> 
+<link rel="stylesheet" type="text/css" href="Joni.css">
+</head> 
+<body> 
+<div class = "group"> 
+	<form action= "registro.php" method = "POST"> 
+	<h2 align="center"><em> Formulario de Registro</em></h2> 
+			<center>
+			<p><label for = "dpi"> Dpi <span> <em> (requerido) </em> </span> </label></p> 
+			<input type = "text" name = "dpi" class = "form-input" required /> 
+			<br> 
+			<p><label for = "nombre"> Nombres <span> <em> (requerido) </em> </span> </label></p> 
+			<input type = "text" name = "nombre" class = "form-input" 	required /> 
+			<br> 
+			<p><label for = "apellido"> Apellidos <span  > <em> (requerido) </em> </span> </label></p>
+			<input type = "text" name = "apellido" class = "form-input" required /> 
+			<br> 
+			<p><label for = "numero"> Numero Telefonico <span  > <em> (requerido) </em> </span> </label></p>
+			<input type = "text" name = "numero" class = "form-input" required /> 
+			<br> 
+			<p><label for = "correo"> Correo <span  > <em> (requerido) </em> </span> </label></p>
+			<input type = "email" name = "Correo" class = "form-input" required /> 
+			<br>
+			<P> <label for = "vehiculo"> Vehiculo <span  > <em> (requerido) </em> </span> </label></P></center>
+			<INPUT type= radio name=Prod value= "1"> JAC Serie T6
+			<INPUT type= radio name=Prod value= "2"> JAC Serie T8
+			<INPUT type= radio name=Prod value= "3"> JAC Serie SUV S2
+			<INPUT type= radio name=Prod value= "3"> JAC Serie SUV S3
+			<INPUT type= radio name=Prod value= "3"> JAC Serie XtDi
+			<INPUT type= radio name=Prod value= "3"> JAC Serie KN
+			 <br> <br> <br>
+		 <center><input  class = "btn form-btn" name = "submit" type = "submit" value = "Suscribirse" /> </center> <br>
+		 <center><input  class = "btn form-btn" name = "reset" type = "reset" value = "Borrar" /> </center>
+		</p> 
+	</form> 
+</div>
+</body> 
+</html>

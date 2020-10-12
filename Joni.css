@@ -1,0 +1,56 @@
+html {
+  font-family: bold;
+  color: #7466;
+}
+
+body{
+background: url(https://static.wixstatic.com/media/297068_b3725289069740cf8e171324f2bcca75.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+form{
+  background-color: #FF0000;
+  border-radius: 50px;
+  color:#A8A2A2; 
+  padding: 20px;
+  margin: 0 auto;
+  width: 460px;
+  font-size: 0.8em;
+}
+
+
+input{
+  border:1;
+  outline: none;
+  width: 300px;
+}
+
+.field{
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+
+
+.btn{
+      border-radius: 20px;
+      display: inline-block;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+    }
+
+    .form-btn{
+      color: white;
+      background-color: #0016FF;
+    }
+    .form-btn:hover{
+      background-color: #192AE8;  
+    }
+    .form-btn:active{
+      background-color: #4853C6;
+    }
